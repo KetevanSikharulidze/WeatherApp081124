@@ -1,8 +1,6 @@
 package com.example.weatherapp081124.models
 
-import java.sql.Time
-
-data class DayItem(
+data class WeatherItem(
     val city: String,
     val time: String,
     val tempCurrent: String,
